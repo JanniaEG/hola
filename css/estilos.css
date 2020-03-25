@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, Sans-serif;
+    font-size: 16px;
+}
+
+.contenedor {
+    position: relative;
+    width: 90%;
+    max-width: 1800px;
+    margin: 10px auto;
+    overflow: hidden; }
+
+
+    h1{
+        font-size: 66px; font-weight: 600; line-height: 80px;
+        font-family: fantasy;
+    }
+    
+    .carousel-iem {
+        font-size: 15px;
+        color: #999999;
+        line-height: 1.8;
+        margin-bottom: 0;
+    }
+    .carousel-caption .content-center > p{
+        font-family: fantasy;
+        font-size: large;
+    }
+    .carousel-caption > a{
+        font-family: fantasy;
+        font-size: 18px;
+    }
+    .topmargin-xs{
+        margin-top: 15px;
+    }
+    .topmargin-sm{
+        margin-top: 30px;
+    }
+    .topmargin-lg{
+        margin-top: 60px;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 15px 10px;
+        min-width: 160px;
+        border-radius: 2px;
+        display: inline-block;
+        margin: 20px;
+        
+    
+    }
+    
+    .btn-light{
+        background-color: #ffffff;
+        color: black;
+        border: 2px solid #ffffff
+    }
+    .navbar{
+        background-color: white;
+        box-shadow: 0, 2px, 4px 0 rgb(0, 0, .05);
+        min-height: 80px;
+    }
+    
+    .nav-link{
+        color: #1a1a1a;
+    }
+    .nav-link:hover{
+        color: #1a1a1a;
+    
+    }
+    
+    .logo-brand {
+        min-width: 70px;
+        max-width: 70px;
+    }
+    
+    .navbar-toggler {
+        font-size: 40px;
+        
+    }
+    .navbar-toggler:focus{
+        outline: none;
+    
+    }
+    .navbar-nav .nav-item{
+        font-family: fantasy;
+        font-size: large;
+    }
+    
+    .content-center {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        color: darkblue;
+    }
+    
+    .carousel-item > img {
+        width: 1000px;
+        height: 700px;
+    }
+
+
+ .svg_colum{
+     font-family: fantasy;
+     padding-top: 100px;
+     
+ }   
+.col-sm{
+    fill: white;
+    max-width: 1000px;
+    padding-top: 50px;
+}
+
+.navbar-nav li:hover > .desplegable{
+    display: block;
+    background-color: rgb(240, 233, 233);
+
+}
+.navbar-nav .nav-item{
+    padding: 5px;
+    margin: 12px;
+} 
+.navbar-nav .nav-item > a:hover {
+    box-shadow: 0px 2px 0px skyblue ;
+    color: rgb(80, 205, 255);
+}
+
+
+.desplegable{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    text-decoration: none;
+   
+
+}
+
+
+.desplegable > li {
+    list-style: none;  
+    padding: 10px;
+    margin: 10px;
+    font-family: fantasy;
+  }
+.desplegable li a:hover{
+    color:rgb(80, 205, 255);
+    text-decoration: none;
+    
+}
+.row .img{
+    border-radius: 100%;
+    width: 50px;
+    background-color: rgb(80, 205, 255);
+    overflow: hidden;
+    
+}
+
+.form {
+    display: flex;
+    background: white;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.iconos{
+     padding: 50px;
+}
+.postsimagen, .iconos ul li{
+    padding: 10px;
+    display: inline;
+
+}
+.postsimagen img {
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+
+ #contact-form {
+    margin:80px;
+    padding:20px;
+     position: absolute;
+
+}
+label{
+ display: block;
+    font-size: 12px;
+}
+input,textarea {
+    margin-bottom: 15px;
+   border: 1px solid darkblue;
+}
+textarea {
+    resize: vertical;
+    max-height: 300px;
+}
+
+input,textarea:focus {
+border: 1px solid darkblue;
+}
+
+.doctores img{
+    padding: 5px;
+    border: 10px solid white;
+
+
+
+}
+
+
+#perfildoctor{
+    padding-top: 100px;
+    width: 80%;
+    max-width: 1800px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+#perfildoctor{
+    display: flex;
+    padding: 20px;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border: 2px solid #263b8d;
+    border-radius: 5px;
+    margin: 10px;
+    
+   
+}
+
+.card > figure > img{
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+}
+
+.card > div > p, .card > div ul {
+    margin: 2px;
+    
+}
+
+.card ul li,p{
+    list-style: none;
+    color: #263b8d;
+}
+
+
+.fotodoc img{
+     width: 300px;
+
+
+ }
+
+ #contacto{
+    width: 76%;
+    max-width: 1800px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-radius: 5px;
+ }
+
+.contact li{
+    list-style: none;
+    display: inline-block;
+    margin: 12px;
+    padding: 10px;
+}
+
+.contact ul li img{
+    width: 17px;
+
+}
+
+.contact ul li a{
+    text-decoration: none;
+    color: black;
+    box-shadow: 5px 5px 5px mediumblue;
+}
+
+.contact ul li a:hover {
+    background: #263b8d;
+    color: white;
+    box-shadow: 1px 2px 1px;
+
+}
+
+#blog{
+    width: 76%;
+    max-width: 1800px;
+    display: flex;
+    margin: 10px auto;
+    
+
+
+}
+
+#blog img {
+    width: 300px;
+    margin: 25px;
+}
+@media screen and (max-width: 800px) {
+    .main {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    font-size: 40px; line-height: normal; }
+   
+   @media (min-width: 576px) and (max-width: 767.98px) { ... }
+   
+   @media (min-width: 768px) and (max-width: 991.98px) { ... }
+   
+   @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+   
+   @media (min-width: 1200px) { ... }
+
+/*# sourceMappingURL=estilos.css.map */
